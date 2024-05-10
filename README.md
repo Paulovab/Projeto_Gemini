@@ -1,8 +1,9 @@
 # Projeto_Gemini - Direcionamento e classificação de mensagens
 
-Objetivo deste Projeto é receber mensagens do WhatsApp ou qualquer outro aplicativo de mensagens e direciona-las para o setor responsavel por atender à aquela demanda. 
+Objetivo deste Projeto é receber mensagens do WhatsApp ou qualquer outro aplicativo de mensagens e direciona-las para o setor responsável por atender à aquela demanda. 
 
 Além de direcionar para o setor responsável, o sistema vai classificar as mensagens com Prioridade Alta, Média ou Baixa.
+Existe regras definidas na requisição para o GEMINI determinar as prioridades.
 
 Este sistema vai ler as mensagens de um arquivo no formato JSON e gerar uma requisição para o GEMINI. 
 Resposta do GEMINI será apresentada de forma organizada na tela, usando to_markdown().
